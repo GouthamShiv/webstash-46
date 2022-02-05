@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,64 @@ body {
     display: flex;
     overflow: hidden;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    background-color: #b8c6db;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+}
+
+.quiz-container {
+    width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    margin: 0;
+    color: #000;
+    width: 100%;
+    border: none;
+    display: block;
+    padding: 1.3rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    background-color: #798999;
+}
+
+button:hover {
+    background-color: #607080;
+}
+
+button:focus {
+    outline: none;
+    background-color: #899999;
 }
